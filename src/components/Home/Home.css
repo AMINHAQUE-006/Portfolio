@@ -1,0 +1,91 @@
+@font-face {
+    font-family: NicoMoji;
+    src: url('../../assets/fonts/NicoMoji.ttf');
+}
+
+@font-face {
+    font-family: Alata;
+    src: url('../../assets/fonts/Alata.ttf');
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    margin-left: 34px;
+    max-width: 60vw;
+}
+
+.name {
+    font-family: NicoMoji;
+    font-size: 4rem;
+}
+
+.profession {
+    font-family: NicoMoji;
+    font-size: 3rem;
+    color: #BEEC09;
+}
+
+.description {
+    margin-top: 40px;
+    font-family: Alata;
+    font-size: 2.2rem;
+}
+
+.highlight {
+    color: #BEEC09;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social-links {
+    height: 60vh;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.social-link-item {
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+}
+
+@media screen and (max-width: 1200px) { 
+    .container {
+        flex-direction: column;
+    }
+
+    .info {
+        margin-left: 34px;
+        max-width: 1000vw;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .profession {
+        text-align: center;
+    }
+
+    .social-links {
+        height: 20vh;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .social-link-item {
+        margin: 0 10px;
+    }
+
+    .info {
+        margin: 0 10px 0 10px;
+    }
+
+    
+  }

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: NicoMoji;
+    src: url('../../assets/fonts/NicoMoji.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    align-self: flex-start;
+    max-height: 80px;
+    max-width: 80px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.nav-options {
+    min-width: 60vw;
+    list-style: none;
+    margin: auto;   
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link-item {
+    padding: 0 20px 0 20px;
+    font-family:  NicoMoji;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hamburger {
+    align-self: start;
+    cursor: pointer;
+    display: none;
+    height: 30px;
+    width: 30px;
+    margin: 20px 0 0 0;
+}
+
+.nav-link-item:hover {
+    color: #BEEC09;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .nav-link-item {
+        padding: 0;
+    }
+
+    .nav-options {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        min-width: 60px;
+    }
+
+    .res-nav-options {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        justify-content: space-evenly;
+    }
+  }

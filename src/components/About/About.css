@@ -1,0 +1,31 @@
+@font-face {
+    font-family: NicoMoji;
+    src: url('../../assets/fonts/NicoMoji.ttf');
+}
+
+.container {
+    height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw;
+}
+
+.card-container .card-name {
+    align-self: center;
+}
+
+.card-name {
+    font-family: NicoMoji;
+}
+
+.icon {
+    height: 126px;
+    width: 126px;
+    border: 2px solid #BEEC09;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+}

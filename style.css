@@ -23,12 +23,12 @@ html, body {
 /* navbar */
 .navbar-brand {
     letter-spacing: 1px;
-    font-size: 2rem !important;
+    font-size: 2rem ;
 }
 
 .nav-link {
-    font-size: 1.5rem !important;
-    letter-spacing: 1px !important;
+    font-size: 1.5rem ;
+    letter-spacing: 1px ;
 }
 
 /* Home page */
@@ -50,7 +50,7 @@ html, body {
 .img-thumbnail {
     height: 200px;
     width: 200px;
-    border-radius: 20% !important;
+    border-radius: 20% ;
     margin: 8px 0 8px 0;
 }
 
