@@ -1,20 +1,19 @@
-:root {
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
 
   color: white;
 
   background-image: url('./assets/background.jpg');
   background-size: cover;
-  background-position-y: center;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-}
-
-@media screen and (max-width: 1200px) {
-  :root {
-    background-image: url('./assets/mob-background.jpg');
-  }
+  background-position: right center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-color: black ;
 }
